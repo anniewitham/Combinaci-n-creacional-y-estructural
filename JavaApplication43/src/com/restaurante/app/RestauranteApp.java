@@ -49,7 +49,7 @@ public class RestauranteApp {
                     continue;
             }
 
-            // Creamos menú base con el tipo elegido
+            
             Menu menu = new Menu(factory.getClass().getSimpleName().replace("Factory", ""));
 
             List<String> seleccionCliente = new ArrayList<>();
@@ -102,7 +102,7 @@ public class RestauranteApp {
             System.out.println("===============================================\n");
         }
 
-        // Mostrar resumen final de toda la mesa
+        
         System.out.println("\n===== Resumen final del pedido de la mesa =====");
         if (pedidoMesa.isEmpty()) {
             System.out.println("La mesa no realizo ningún pedido.");
